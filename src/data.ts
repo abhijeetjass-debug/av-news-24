@@ -1154,6 +1154,28 @@ export const sampleArticles: Article[] = [
     duration: '10:20',
     trendingScore: 85,
     videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+  },
+  {
+    id: 78,
+    category: 'Sports',
+    title: 'RR vs MI: Rajasthan Royals Must Win Today to Stay Alive in IPL 2025 Playoffs Race',
+    excerpt: 'With their playoff hopes hanging by a thread, Rajasthan Royals face a must-win clash against Mumbai Indians tonight. All eyes on teenage sensation Vaibhav Suryavanshi to deliver the magic.',
+    body: `<p>Tonight's IPL 2025 encounter between <strong>Rajasthan Royals (RR)</strong> and <strong>Mumbai Indians (MI)</strong> is nothing short of a knockout for the Royals. A defeat tonight will all but end their chances of making the top four, making this game a <em>must-win</em> for the Jaipur-based franchise.</p>
+           <blockquote class="my-6 bg-zinc-50 dark:bg-zinc-950/60 p-5 rounded-2xl border-l-4 border-l-brand-crimson dark:border-l-red-500 italic text-zinc-900 dark:text-zinc-100 font-bold shadow-sm">
+             "Rajasthan Royals ko aaj jeetna hi hoga — playoffs ka rasta issi match se guzarta hai."
+           </blockquote>
+           <p>The spotlight will fall heavily on <strong>Vaibhav Suryavanshi</strong>, the 14-year-old prodigy from Bihar who became IPL's youngest-ever centurion this season with a blistering <strong>101 off just 38 balls</strong> against Gujarat Titans. His explosive power-play batting has been a revelation, and RR will desperately need him to fire at the top of the order.</p>
+           <p>Mumbai Indians, on the other hand, come into this game with confidence riding high, bolstered by their seasoned bowling attack. The dew factor and pitch conditions at the venue are expected to favour the team batting second, adding another strategic dimension to tonight's contest.</p>
+           <p><strong>Key Battle to Watch:</strong> Vaibhav Suryavanshi vs MI's pace attack in the powerplay overs. If the youngster can get going early, Rajasthan have the firepower to post a challenging total — or chase down whatever MI set.</p>
+           <p>Fans across the country are glued to their screens, with the hashtag <em>#RRvsMI</em> already trending nationally. For Rajasthan Royals, this is more than just a league game — it is a battle for survival.</p>`,
+    author: 'Vaibhav Suryavanshi (Image Credit)',
+    authorAvatar: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vaibhav_Suryavanshi_meets_PM_Modi.jpg',
+    time: 'Just now',
+    timestamp: Date.now(),
+    views: '1.2M',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vaibhav_Suryavanshi_meets_PM_Modi.jpg',
+    trendingScore: 100,
+    isBreaking: true
   }
 ];
 
