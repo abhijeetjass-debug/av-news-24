@@ -796,12 +796,19 @@ export default function App() {
       />
 
       {/* Full layout Article details Modal controller */}
-      <ArticleReader 
-        article={selectedArticle} 
-        onClose={handleCloseArticle} 
-        allArticles={articles}
-        onArticleClick={handleArticleSelect}
-      />
+      {selectedArticle && (
+        <div
+          className="fixed inset-0 z-[200] overflow-y-auto bg-white dark:bg-zinc-900 animate-[fadeInUp_0.3s_ease-out_both]"
+          style={{ scrollBehavior: 'smooth' }}
+        >
+          <ArticleReader
+            article={selectedArticle}
+            onClose={handleCloseArticle}
+            allArticles={articles}
+            onArticleClick={handleArticleSelect}
+          />
+        </div>
+      )}
 
       {/* Toast Overlay stack alert manager */}
       <div className="fixed bottom-6 right-6 z-[300] flex flex-col gap-3 max-w-sm w-full pointer-events-none">
