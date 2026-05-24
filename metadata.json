@@ -1,0 +1,6 @@
+{
+  "name": "AV News24",
+  "description": "A premium, modern, fully responsive news portal with live ticker, real-time weather and updates, categorized articles, scoreboard, and editor picks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
